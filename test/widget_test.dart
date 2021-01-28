@@ -9,7 +9,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 import 'package:flutter_web_navigation/main.dart';
-import 'package:flutter_web_navigation/my_app.dart';
+
 import 'package:flutter_web_navigation/my_app_router_with_state.dart';
 
 void main() {

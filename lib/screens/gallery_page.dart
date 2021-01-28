@@ -48,7 +48,10 @@ class MyTabPageState extends State<MyTabPage>
             Tab(icon: Icon(Icons.book)),
           ],
         ),
-        title: Text('Tab'),
+        title: Text(
+          'Gallery',
+          style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),
+        ),
       ),
       body: TabBarView(
         controller: _tabController,
