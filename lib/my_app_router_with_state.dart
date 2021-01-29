@@ -115,9 +115,9 @@ class MyRouterDelegate extends RouterDelegate<MyConfiguration>
       pages: <Page<void>>[
         MaterialPage(key: ValueKey('home'), child: MyHomePage()),
         if (_myRoute == MyRoute.gallery)
-          MaterialPage(key: ValueKey('gallery'), child: MyTabPage(_tab)),
+          MaterialPage(key: ValueKey('gallery'), child: GalleryPage(_tab)),
         if (_myRoute == MyRoute.seeAll)
-          MaterialPage(key: ValueKey('seeAll'), child: MyLinkPage()),
+          MaterialPage(key: ValueKey('seeAll'), child: SeeAllPage()),
         if (_myRoute == MyRoute.more)
           MaterialPage(key: ValueKey('seeAll/more'), child: ContentDetail()),
       ],

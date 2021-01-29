@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 import '../my_app_router_with_state.dart';
 
-class MyLinkPage extends StatelessWidget {
+class SeeAllPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(

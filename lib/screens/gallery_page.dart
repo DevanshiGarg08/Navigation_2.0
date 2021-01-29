@@ -2,14 +2,14 @@ import 'package:flutter/material.dart';
 
 import '../my_app_router_with_state.dart';
 
-class MyTabPage extends StatefulWidget {
-  MyTabPage(this.tab) : super();
+class GalleryPage extends StatefulWidget {
+  GalleryPage(this.tab) : super();
   final int tab;
   @override
-  MyTabPageState createState() => MyTabPageState();
+  GalleryPageState createState() => GalleryPageState();
 }
 
-class MyTabPageState extends State<MyTabPage>
+class GalleryPageState extends State<GalleryPage>
     with SingleTickerProviderStateMixin {
   TabController _tabController;
   @override
@@ -21,7 +21,7 @@ class MyTabPageState extends State<MyTabPage>
   }
 
   @override
-  void didUpdateWidget(MyTabPage oldWidget) {
+  void didUpdateWidget(GalleryPage oldWidget) {
     super.didUpdateWidget(oldWidget);
     _tabController.index = widget.tab;
   }
