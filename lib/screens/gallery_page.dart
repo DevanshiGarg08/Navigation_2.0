@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../my_app_router_with_state.dart';
+import '../app.dart';
 
 class GalleryPage extends StatefulWidget {
   GalleryPage(this.tab) : super();
@@ -15,6 +15,8 @@ class GalleryPageState extends State<GalleryPage>
   @override
   void initState() {
     super.initState();
+
+    /// Will manage the state required by TabBar and TabBarView
     _tabController =
         TabController(initialIndex: widget.tab, length: 2, vsync: this)
           ..addListener(_onTabIndexChange);

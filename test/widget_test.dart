@@ -10,7 +10,7 @@ import 'package:flutter_test/flutter_test.dart';
 
 import 'package:flutter_web_navigation/main.dart';
 
-import 'package:flutter_web_navigation/my_app_router_with_state.dart';
+import 'package:flutter_web_navigation/app.dart';
 
 void main() {
   testWidgets('Counter increments smoke test', (WidgetTester tester) async {
